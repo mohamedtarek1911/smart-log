@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.head-title {
+  color: whitesmoke;
+  font-weight: 800;
+  font-family: "Bangers", cursive;
+  font-size: 6rem;
+}
+
+.text-white {
+  color: whitesmoke !important;
+}
+
+.text-info span {
+  font-size: 0.85rem;
+}
+
+.text-info span a {
+  color: whitesmoke !important;
+}
+
+.form {
+  margin: 1.875rem 2rem;
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.head-title {
+  color: whitesmoke;
+  font-weight: 800;
+  font-family: "Bangers", cursive;
+  font-size: 6rem;
+}
+
+.text-form {
+  /* display: block; */
+  margin-top: 0.25rem;
+}
+
+.part-1 {
+  margin-top: 0.65rem;
+}
+
+.part-2 {
+  margin-top: 0.65rem;
+}
+
+.part-3 {
+  margin: 1rem 0;
+  padding-bottom: 1.25rem;
+}
+
+.part-4 {
+  margin: 1rem 0;
+  padding-bottom: 1.25rem;
+}
+
+.btn {
+  padding-bottom: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
+  padding: 0.45rem 0.95rem !important;
+  font-size: 1.2rem;
+}
+
+.buttons {
+  padding: 0 0.5rem;
+  height: 6rem;
+}

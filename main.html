@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>main</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-12 my-4">
+            <h1 class="head-title">Thanks for signing up!</h1>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div action="">
+          <div class="row">
+            <div class="col-md-6 m-auto w-75">
+              <div class="part-1">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="CreateUserName"
+                  id="createUserName"
+                />
+                <p class="lead text-muted text-form">
+                  Must be alphanumeric and have a minimim of 5 characters.
+                </p>
+              </div>
+              <div class="part-2">
+                <input
+                  type="password"
+                  class="form-control"
+                  placeholder="CreatePassword"
+                  id="createPassword"
+                />
+                <p class="lead text-muted text-form">
+                  We recommend your password to be 8-20 characters long.
+                </p>
+              </div>
+              <div class="part-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="Enter valid E-mail"
+                  id="emailInput"
+                />
+              </div>
+              <div class="part-4 my-3">
+                <input type="date" class="form-control" id="createDate" />
+
+                <p class="lead text-muted text-form">
+                  We'll never share your private details with anyone else.
+                </p>
+              </div>
+
+              <div class="massege-alert text-center">
+                <h5 class="text-danger d-none">inter valid data😡🤬🤬</h5>
+                <h5 class="text-success d-none">succsess😊👌</h5>
+              </div>
+
+              <div
+                class="buttons py-1 my-2 w-25 d-flex flex-row align-content-center align-items-center justify-content-between"
+              >
+                <button class="btn btn-light btn_submit" type="submit">
+                  submit
+                </button>
+
+                <!-- <a href="index.html" rel="noopener noreferrer"
+                  ><button class="btn btn-light btn_submit" type="submit">
+                    submit
+                  </button>
+                </a> -->
+                <button class="btn btn-light btn_clear" type="cancel">
+                  cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="module" src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
